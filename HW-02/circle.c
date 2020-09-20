@@ -17,10 +17,10 @@ int main (void)
 {
 int x;
 scanf("%d",&x);
-if(x <= 1 || x >= 100)
+if(x < 1 || x >= 100)
     return 0;
 else  
-    printf("%.100f ", area(x));
-    printf("%.100f", string(x));
+    printf("%.2f ", area(x));
+    printf("%.2f", string(x));
 return 0;
 }

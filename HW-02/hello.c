@@ -5,7 +5,7 @@
 char * hello()
 {
     char *p = malloc(20);
-    strcpy(p,"Hello C");
+    strcpy(p,"Hello C!");
     return p;
 }
 int main (void)
