@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define PI 3.14159265359f
+#define PI 3.14f
 
 float area(int r)
 {
