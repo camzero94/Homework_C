@@ -9,7 +9,7 @@ int main ()
     Y = X - B + C;
     Z = Y - D;
 
-    printf("000%d 000%d 000%d", X,Y,Z);
+    printf("%.4d %.4d %.4d", X,Y,Z);
    
     
     return 0;
